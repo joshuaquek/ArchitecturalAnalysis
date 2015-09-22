@@ -7,7 +7,7 @@ import java.util.*;
 /**
  * Some example code on how to use the MapReduce Framework
  */
-public class Game3 implements Mapper, Reducer
+public class Game2B implements Mapper, Reducer
 {
 
     /**
@@ -90,8 +90,8 @@ public class Game3 implements Mapper, Reducer
         
 
         System.out.println("\n\n------START MapReduce-------");
-        Game3 mapper = new Game3(); //create mapper object
-        Game3 reducer = new Game3(); //create reducer object
+        Game2B mapper = new Game2B(); //create mapper object
+        Game2B reducer = new Game2B(); //create reducer object
 
         HashMap<Object, List> results = null;
 
